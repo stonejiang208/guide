@@ -1,6 +1,6 @@
 // -*- C++ -*-
 //===========================================================================
-/* Time-stamp: <2014-12-28 19:39:59 by jiangtao> */
+/* Time-stamp: <2014-12-28 20:05:43 by jiangtao> */
 
 /* @file t1.cpp
  * $Id: t1.cpp 2014-12-28 11:26:34 jiangtao Exp $
@@ -25,7 +25,7 @@ int main()
 	std::cout << "start here\n";
 	std::chrono::time_point<std::chrono::system_clock> start, end;
 	start = std::chrono::system_clock::now();
-	unsigned x = 50;
+	unsigned x = 40;
 	std::cout << "f(" << x << ") = " << fibonacci(x) << '\n';
 	end = std::chrono::system_clock::now();
 	

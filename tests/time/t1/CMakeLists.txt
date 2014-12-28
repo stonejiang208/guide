@@ -1,0 +1,4 @@
+PROJECT (t1)
+SET (SRC_LIST t1.cpp)
+
+ADD_EXECUTABLE (t1 ${SRC_LIST})
